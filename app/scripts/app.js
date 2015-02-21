@@ -18,14 +18,14 @@ module.exports = {
 
     app.config = {
 		//singular title used for the app
-      title: 'Spielplatz',
+      title: 'Öffentliche Toiletten',
 		//plural title used for the app
-      titlePlural: 'Spielplätze',
+      titlePlural: 'Toiletten',
       overpass: {
 			//query from http://wiki.openstreetmap.org/wiki/Nominatim/Special_Phrases/DE
-        query: 'Spielplatz',
+        query: 'Toilet',
 			//option within returned data to display as single entity's headline
-        headline: 'playground'
+        headline: 'toilet'
       },
       map: {
 			//position of zoom buttons on map
